@@ -171,7 +171,7 @@ $bootstrap_admin_pass = "lunabella";
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'rubrica');
 define('DB_USER', 'root');
-define('DB_PASS', 'homecasaluna'); // <-- metti la tua password DB
+define('DB_PASS', 'pass'); // <-- metti la tua password DB
 
 if (!function_exists('str_starts_with')) {
   function str_starts_with(string $haystack, string $needle): bool {
